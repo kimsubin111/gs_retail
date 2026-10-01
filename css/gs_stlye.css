@@ -173,8 +173,8 @@
     font-weight: 700;
 }
 .notice ul li span.more {
-    background: url(../img/plus.jpg) no-repeat;
-    padding-left: 15px;
+    background: url(../img/plus.jpg) no-repeat right 0;
+    padding-right: 15px;
 }
 .notice ul li span.date {
 }

@@ -1,0 +1,180 @@
+/* layout */
+#gs_wrap {
+    width: 958px;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.member {
+    width: 226px;
+}
+.youtube {
+    width: 226px;
+}
+.service {
+    width: 466px;
+}
+.point {
+    width: 226px;
+}
+.notice {
+    width: 712px;
+    border: 1px solid #b4b4b4;
+    box-sizing: border-box;
+}
+
+/* title */
+.title {
+    height: 44px;
+}
+.title h2 {
+    font-size: 22px;
+}
+.title h2 span {
+    color: #216fed;
+}
+
+/* member */
+.member_content {
+    height: 275px;
+    background: url(../img/sweet.jpg) no-repeat #f0f0f0;
+    text-align: center;
+    border: 1px solid #b4b4b4;
+    box-sizing: border-box;
+}
+.member_content h3 {
+    padding-top: 215px;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+}
+.member_content p {
+    font-size: 14px;
+    margin-top: 3px;
+    background: url(../img/won.jpg) no-repeat 35% 0;
+}
+
+/* youtube */
+.youtube_content {
+    height: 275px;
+    background: url(../img/youtube_icon.jpg) no-repeat 21px 34px;
+    background-color: #f0f0f0;
+    border: 1px solid #b4b4b4;
+    box-sizing: border-box;
+}
+.youtube_content h3 {
+    margin-left: 70px;
+    padding-top: 32px;
+    font-size: 18px;
+    line-height: 1.35;
+}
+.youtube_content p {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.youtube_video {
+    margin-top: 10px;
+}
+.youtube_video iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* service */
+.service_content {
+    height: 275px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    border: 1px solid #b4b4b4;
+    box-sizing: border-box;
+}
+.service_content > div {
+    width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 0 40px 30px;
+}
+.icon {
+    width: 56px;
+    height: 50px;
+    margin-right: 10px;
+    text-indent: -10000px;
+}
+.chk {
+    background: url(../img/check.jpg) no-repeat;
+}
+.consult {
+    background: url(../img/consult.jpg) no-repeat;
+}
+.card {
+    background: url(../img/membership.jpg) no-repeat;
+}
+.recruit {
+    background: url(../img/recurt.jpg) no-repeat;
+}
+.desc strong {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.desc span {
+    display: block;
+}
+
+/* service border */
+.service_content01,
+.service_content02 {
+    border-bottom: 1px solid #b4b4b4;
+}
+.service_content01,
+.service_content03 {
+    border-right: 1px solid #b4b4b4;
+}
+
+/* point */
+.point {
+    height: 110px;
+    background: #00a6a6 url(../img/gs_point.jpg) no-repeat 24px 24px;
+}
+.point h2 {
+    padding-top: 32px;
+    margin-left: 80px;
+    font-size: 24px;
+    color: #fff;
+}
+.point h2 span {
+    font-weight: 300;
+}
+.point p {
+    margin-left: 80px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+/* notice */
+.notice ul {
+    width: 95%;
+    margin: 23px auto 0 auto;
+}
+.notice ul li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.notice ul li span.note {
+    font-size: 15px;
+    font-weight: 700;
+}
+.notice ul li span.more {
+    background: url(../img/plus.jpg) no-repeat;
+    padding-left: 15px;
+}
+.notice ul li span.date {
+}
